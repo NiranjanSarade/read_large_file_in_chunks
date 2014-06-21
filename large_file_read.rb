@@ -34,9 +34,3 @@ Dir["#{ARGV[0]}/*.csv"].each do |filename|
   f.close
   p "Replaced file = #{replaced_file}"
 end  
-
-#http://stackoverflow.com/questions/13849280/dealing-with-large-csv-files-20g-in-ruby
-
-#http://books.google.co.in/books?id=bJkznhZBG6gC&pg=PA204&lpg=PA204&dq=yield+read(chunk_size)+until+eof?&source=bl&ots=AmH0e7p_RI&sig=Z7H3l6wWwj78ylLRVROgFNWDsNY&hl=en&sa=X&ei=G3qlU_vQDYS3uAT--oLYBg&ved=0CCcQ6AEwAg#v=onepage&q=yield%20read(chunk_size)%20until%20eof%3F&f=false
-
-#http://stackoverflow.com/questions/11949714/parse-huge-file-10gb-and-write-content-in-another-one
